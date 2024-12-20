@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notion</title>
+    <link rel="stylesheet" href="notions.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="leftNav">
+                <svg class="wordmark_wordmark__gPyj1" style="--wordmark-height:32px" viewBox="0 0 87 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.805 1.294l16.6-1.226c2.039-.175 2.563-.057 3.845.875l5.299 3.733c.874.642 1.165.817 1.165 1.516v20.473c0 1.283-.466 2.042-2.097 2.158L7.34 29.99c-1.224.058-1.807-.117-2.448-.934L.99 23.982c-.7-.934-.99-1.633-.99-2.45V3.334c0-1.049.466-1.924 1.805-2.04z" fill="#fff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M18.405.068l-16.6 1.226C.466 1.41 0 2.285 0 3.334v18.198c0 .817.29 1.516.99 2.45l3.902 5.074c.641.817 1.224.992 2.448.934l19.277-1.167c1.63-.116 2.097-.875 2.097-2.158V6.192c0-.663-.262-.854-1.033-1.42a85.473 85.473 0 01-.133-.096L22.25.943c-1.282-.932-1.806-1.05-3.845-.875zM7.776 5.857c-1.574.106-1.931.13-2.825-.597L2.678 3.452c-.231-.234-.115-.526.467-.584l15.958-1.166c1.34-.117 2.038.35 2.562.758l2.737 1.983c.117.059.408.408.058.408l-16.48.992-.204.014zM5.941 26.49V9.11c0-.759.233-1.109.931-1.168L25.8 6.834c.642-.058.932.35.932 1.108v17.264c0 .759-.117 1.401-1.165 1.459l-18.113 1.05c-1.048.058-1.513-.291-1.513-1.225zm17.88-16.448c.116.525 0 1.05-.525 1.11l-.873.173v12.832c-.758.408-1.456.641-2.039.641-.932 0-1.165-.292-1.863-1.166l-5.709-8.982v8.69l1.806.409s0 1.05-1.457 1.05l-4.017.233c-.117-.234 0-.817.407-.933l1.049-.291v-11.49L9.144 12.2c-.117-.525.174-1.283.99-1.342l4.31-.29 5.94 9.098v-8.049l-1.514-.174c-.117-.643.349-1.11.931-1.167l4.02-.234z" fill="#000"></path><path class="wordmark_fill__RZFeq" d="M41.434 21.251v-7.91h.137l5.704 7.91h1.796V9.627h-1.997v7.902h-.137l-5.704-7.902H39.43V21.25h2.005zM54.715 21.429c2.635 0 4.238-1.724 4.238-4.584 0-2.852-1.611-4.584-4.238-4.584-2.618 0-4.237 1.74-4.237 4.584 0 2.86 1.595 4.584 4.237 4.584zm0-1.676c-1.393 0-2.19-1.063-2.19-2.908 0-1.837.797-2.908 2.19-2.908 1.386 0 2.183 1.071 2.183 2.908 0 1.845-.789 2.908-2.183 2.908zM60.778 10.28v2.215h-1.393v1.595h1.393v4.809c0 1.708.806 2.393 2.828 2.393.386 0 .757-.04 1.047-.097v-1.563c-.242.024-.395.04-.677.04-.837 0-1.208-.386-1.208-1.256V14.09h1.885v-1.595h-1.885v-2.216h-1.99zM65.85 21.251h1.99v-8.813h-1.99v8.813zm.991-10.27c.66 0 1.192-.533 1.192-1.201 0-.669-.531-1.209-1.192-1.209-.652 0-1.192.54-1.192 1.209 0 .668.54 1.2 1.192 1.2zM73.299 21.429c2.634 0 4.237-1.724 4.237-4.584 0-2.852-1.611-4.584-4.237-4.584-2.619 0-4.238 1.74-4.238 4.584 0 2.86 1.595 4.584 4.238 4.584zm0-1.676c-1.394 0-2.192-1.063-2.192-2.908 0-1.837.798-2.908 2.192-2.908 1.385 0 2.183 1.071 2.183 2.908 0 1.845-.79 2.908-2.183 2.908zM78.725 21.251h1.998V16.12c0-1.297.75-2.119 1.941-2.119 1.217 0 1.78.677 1.78 2.022v5.228h1.999v-5.703c0-2.103-1.072-3.287-3.037-3.287-1.314 0-2.2.604-2.619 1.587h-.137v-1.41h-1.925v8.813z" fill="#000"></path></svg>
+                <div class="navLeftLinks">
+                    <div class="links1">
+                        <a href="">Product</a>
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="links1">
+                        <a href="">Download</a>
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="links1">
+                        <a href="">Solutions</a>
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="links1">
+                        <a href="">Resources</a>
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="links1">
+                        <a href="">Pricing</a>
+                    </div>
+                </div>
+            </div>
+            <div class="rightNav">
+                <div class="navRightLinks">
+                    <div class="links1">
+                        <a href="">Request a demo</a>
+                    </div>
+                    <div class="links1">
+                        <a href="">Login</a>
+                    </div>
+                    <div class="links3">
+                        <a href="">Get notion free</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar2">
+            <svg class="wordmark_wordmark__gPyj1" style="--wordmark-height:32px" viewBox="0 0 87 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.805 1.294l16.6-1.226c2.039-.175 2.563-.057 3.845.875l5.299 3.733c.874.642 1.165.817 1.165 1.516v20.473c0 1.283-.466 2.042-2.097 2.158L7.34 29.99c-1.224.058-1.807-.117-2.448-.934L.99 23.982c-.7-.934-.99-1.633-.99-2.45V3.334c0-1.049.466-1.924 1.805-2.04z" fill="#fff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M18.405.068l-16.6 1.226C.466 1.41 0 2.285 0 3.334v18.198c0 .817.29 1.516.99 2.45l3.902 5.074c.641.817 1.224.992 2.448.934l19.277-1.167c1.63-.116 2.097-.875 2.097-2.158V6.192c0-.663-.262-.854-1.033-1.42a85.473 85.473 0 01-.133-.096L22.25.943c-1.282-.932-1.806-1.05-3.845-.875zM7.776 5.857c-1.574.106-1.931.13-2.825-.597L2.678 3.452c-.231-.234-.115-.526.467-.584l15.958-1.166c1.34-.117 2.038.35 2.562.758l2.737 1.983c.117.059.408.408.058.408l-16.48.992-.204.014zM5.941 26.49V9.11c0-.759.233-1.109.931-1.168L25.8 6.834c.642-.058.932.35.932 1.108v17.264c0 .759-.117 1.401-1.165 1.459l-18.113 1.05c-1.048.058-1.513-.291-1.513-1.225zm17.88-16.448c.116.525 0 1.05-.525 1.11l-.873.173v12.832c-.758.408-1.456.641-2.039.641-.932 0-1.165-.292-1.863-1.166l-5.709-8.982v8.69l1.806.409s0 1.05-1.457 1.05l-4.017.233c-.117-.234 0-.817.407-.933l1.049-.291v-11.49L9.144 12.2c-.117-.525.174-1.283.99-1.342l4.31-.29 5.94 9.098v-8.049l-1.514-.174c-.117-.643.349-1.11.931-1.167l4.02-.234z" fill="#000"></path><path class="wordmark_fill__RZFeq" d="M41.434 21.251v-7.91h.137l5.704 7.91h1.796V9.627h-1.997v7.902h-.137l-5.704-7.902H39.43V21.25h2.005zM54.715 21.429c2.635 0 4.238-1.724 4.238-4.584 0-2.852-1.611-4.584-4.238-4.584-2.618 0-4.237 1.74-4.237 4.584 0 2.86 1.595 4.584 4.237 4.584zm0-1.676c-1.393 0-2.19-1.063-2.19-2.908 0-1.837.797-2.908 2.19-2.908 1.386 0 2.183 1.071 2.183 2.908 0 1.845-.789 2.908-2.183 2.908zM60.778 10.28v2.215h-1.393v1.595h1.393v4.809c0 1.708.806 2.393 2.828 2.393.386 0 .757-.04 1.047-.097v-1.563c-.242.024-.395.04-.677.04-.837 0-1.208-.386-1.208-1.256V14.09h1.885v-1.595h-1.885v-2.216h-1.99zM65.85 21.251h1.99v-8.813h-1.99v8.813zm.991-10.27c.66 0 1.192-.533 1.192-1.201 0-.669-.531-1.209-1.192-1.209-.652 0-1.192.54-1.192 1.209 0 .668.54 1.2 1.192 1.2zM73.299 21.429c2.634 0 4.237-1.724 4.237-4.584 0-2.852-1.611-4.584-4.237-4.584-2.619 0-4.238 1.74-4.238 4.584 0 2.86 1.595 4.584 4.238 4.584zm0-1.676c-1.394 0-2.192-1.063-2.192-2.908 0-1.837.798-2.908 2.192-2.908 1.385 0 2.183 1.071 2.183 2.908 0 1.845-.79 2.908-2.183 2.908zM78.725 21.251h1.998V16.12c0-1.297.75-2.119 1.941-2.119 1.217 0 1.78.677 1.78 2.022v5.228h1.999v-5.703c0-2.103-1.072-3.287-3.037-3.287-1.314 0-2.2.604-2.619 1.587h-.137v-1.41h-1.925v8.813z" fill="#000"></path></svg>
+            <div class="navbar2Left">
+                <div class="links3">
+                    <a href="">Get notion free</a>
+                </div>
+                <svg class="menu" viewBox="0 0 30 30" style="width:22px;height:100%;display:block;fill:var(--color-ui-icon);flex-shrink:0"><path d="M2,4v2h26V4H2z M2,16h26v-2H2V16z M2,26h26v-2H2V26z"></path></svg>
+            </div>
+        </div>
+        <div class="firstDiv">
+            <div class="organiseDiv">
+                <div class="organiseText">
+                    <h1>Write. Plan. Organize.</h1><br>
+                    <p>With a little help from AI.</p>
+                    <div class="buttonDiv">
+                        <button class="get">Get Notion free</button>
+                        <button class="request">Request a demo</button>
+                    </div>
+                </div>
+                <div class="organisePic">
+                    <img src="hero-illo.webp" alt="">
+                </div>
+            </div>
+            <div class="standupPic">
+                <img src="notion-hero-v3.png" alt="">
+            </div>
+            <div class="brandsDiv">
+                <img src="figma.svg" alt="">
+                <img src="substack.png" alt="">
+                <img src="discord.svg" alt="">
+                <img src="arc.svg" alt="">
+                <img src="spotify_3x.png" alt="">
+                <img src="toyota.svg" alt="">
+            </div>
+            <div class="rightWords">
+                <div class="rightWordText">
+                    <button class="write">Write</button>
+                    <h1>Find the right words.</h1><br>
+                    <p>Capture ideas, gather feedback from teammates, and ask AI to add the finishing touches.</p><br>
+                    <a href="">Explore docs & notes→</a>
+                </div>
+                <div class="rightWordContent">
+                    <div class="buildingDiv">
+                        <img src="photoOnRectangle.webp" alt="">
+                        <h3>Building blocks</h3>
+                        <p class="texts">100+ content types to communicate any idea.</p>
+                    </div>
+                    <div class="buildingDiv">
+                        <img src="at2.webp" alt="">
+                        <h3>Collaborative tools</h3>
+                        <p class="texts">Built for teams to share, suggest, and comment.</p>
+                    </div>
+                    <div class="buildingDiv">
+                        <img src="sparklePencil.webp" alt="">
+                        <h3>AI-assisted</h3>
+                        <p class="texts">Edit, draft, translate. Ask, and AI will answer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="notesPic">
+                <img class="notesPic1" src="write-v5.png" alt="">
+                <img class="notesPic2" src="write.png" alt="">
+                <div class="rightWordContent2">
+                    <div class="buildingDiv">
+                        <img src="photoOnRectangle.webp" alt="">
+                        <div class="buildingDivText">
+                             <h3>Building blocks</h3>
+                            <p class="texts">100+ content types to communicate any idea.</p>
+                        </div>
+                    </div>
+                    <div class="buildingDiv">
+                        <img src="at2.webp" alt="">
+                        <div class="buildingDivText">
+                            <h3>Collaborative tools</h3>
+                            <p class="texts">Built for teams to share, suggest, and comment.</p>
+                        </div>
+                    </div>
+                    <div class="buildingDiv">
+                        <img src="sparklePencil.webp" alt="">
+                        <div class="buildingDivText">
+                            <h3>AI-assisted</h3>
+                            <p class="texts">Edit, draft, translate. Ask, and AI will answer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="replaceDiv">
+                    <h3>Replaces</h3>
+                    <div class="replaceDivIcons">
+                        <div class="evernoteDiv">
+                            <img src="evernote.svg" alt="">
+                            <p>Evernote</p>
+                        </div>
+                        <div class="evernoteDiv">
+                            <img src="gdocs.svg" alt="">
+                            <p>Google Docs</p>
+                        </div>
+                        <div class="evernoteDiv">
+                            <img src="coda.svg" alt="">
+                            <p>Coda</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightWordContent1">
+                <div class="buildingDiv">
+                    <img src="photoOnRectangle.webp" alt="">
+                    <div class="buildingDivText">
+                         <h3>Building blocks</h3>
+                        <p class="texts">100+ content types to communicate any idea.</p>
+                    </div>
+                </div>
+                <div class="buildingDiv">
+                    <img src="at2.webp" alt="">
+                    <div class="buildingDivText">
+                        <h3>Collaborative tools</h3>
+                        <p class="texts">Built for teams to share, suggest, and comment.</p>
+                    </div>
+                </div>
+                <div class="buildingDiv">
+                    <img src="sparklePencil.webp" alt="">
+                    <div class="buildingDivText">
+                        <h3>AI-assisted</h3>
+                        <p class="texts">Edit, draft, translate. Ask, and AI will answer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightWords">
+                <div class="workflow">
+                    <button class="write">Plan</button>
+                    <h1>Your workflow. Your way.</h1><br>
+                    <p>There’s a lot to keep track of. Notion’s flexible pages allow you to design your ideal workflow and view it by timeline, task, team, or level of doneness.</p><br>
+                    <a href="">Explore projects→</a>
+                </div>
+                <div class="rightWordContent">
+                    <div class="buildingDiv">
+                        <img src="checklist.webp" alt="">
+                        <h3>Tasks and to-dos</h3>
+                        <p class="texts">Tackle any project, big or small.</p>
+                    </div>
+                    <div class="buildingDiv">
+                        <img src="calendarSheet.webp" alt="">
+                        <h3>Custom views</h3>
+                        <p class="texts">Visualize work in any format, from calendars to kanban boards.</p>
+                    </div>
+                    <div class="buildingDiv">
+                        <img src="bolt.webp" alt="">
+                        <h3>Automations</h3>
+                        <p class="texts">Put tedious tasks on autopilot.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="notesPic">
+                <img class="notesPic1" src="plan-v5.png" alt="">
+                <img class="notesPic2" src="plan.png" alt="">
+                <div class="rightWordContent2">
+                    <div class="buildingDiv">
+                        <img src="checklist.webp" alt="">
+                        <div class="buildingDivText">
+                            <h3>Tasks and to-dos</h3>
+                            <p class="texts">Tackle any project, big or small.</p>
+                        </div>
+                    </div>
+                    <div class="buildingDiv">
+                        <img src="calendarSheet.webp" alt="">
+                        <div class="buildingDivText">
+                            <h3>Custom views</h3>
+                        <p class="texts">Visualize work in any format, from calendars to kanban boards.</p>
+                        </div>
+                    </div>
+                    <div class="buildingDiv">
+                        <img src="bolt.webp" alt="">
+                        <div class="buildingDivText">
+                            <h3>Automations</h3>
+                            <p class="texts">Put tedious tasks on autopilot.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="replaceDiv">
+                    <h3>Replaces</h3>
+                    <div class="replaceDivIcons">
+                        <div class="evernoteDiv">
+                            <img src="trello.svg" alt="">
+                            <p>Trello</p>
+                        </div>
+                        <div class="evernoteDiv">
+                            <img src="asana.svg" alt="">
+                            <p>Asana</p>
+                        </div>
+                        <div class="evernoteDiv">
+                            <img src="monday.svg" alt="">
+                            <p>Monday</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightWordContent1">
+                <div class="buildingDiv">
+                    <img src="checklist.webp" alt="">
+                    <div class="buildingDivText">
+                        <h3>Tasks and to-dos</h3>
+                        <p class="texts">Tackle any project, big or small.</p>
+                    </div>
+                </div>
+                <div class="buildingDiv">
+                    <img src="calendarSheet.webp" alt="">
+                    <div class="buildingDivText">
+                        <h3>Custom views</h3>
+                    <p class="texts">Visualize work in any format, from calendars to kanban boards.</p>
+                    </div>
+                </div>
+                <div class="buildingDiv">
+                    <img src="bolt.webp" alt="">
+                    <div class="buildingDivText">
+                        <h3>Automations</h3>
+                        <p class="texts">Put tedious tasks on autopilot.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightWords">
+                <div class="rightWordText">
+                    <button class="write">Organise</button>
+                    <h1>Remember everything.</h1><br>
+                    <p>No more endless searching for the info you need. Everything you and your team store in Notion is accessible in an instant..</p><br>
+                    <a href="">Explore knowledge management→</a>
+                </div>
+                <div class="rightWordContent">
+                    <div class="buildingDiv">
+                        <img src="bookClosed1.webp" alt="">
+                        <h3>Teamspaces</h3>
+                        <p class="texts">Dedicated space for every team and project</p>
+                    </div>
+                    <div class="buildingDiv">
+                        <img src="connections.webp" alt="">
+                        <h3>Integrations</h3>
+                        <p class="texts">Connected to all your favorite tools.</p>
+                    </div>
+                    <div class="buildingDiv">
+                        <img src="sparkleBubble.webp" alt="">
+                        <h3>Just ask AI</h3>
+                        <p class="texts">Instant answers when you need them.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="notesPic">
+                <img class="notesPic1" src="organize-v6.png" alt="">
+                <img class="notesPic2" src="organize.png" alt="">
+                <div class="rightWordContent2">
+                    <div class="buildingDiv">
+                        <img src="bookClosed1.webp" alt="">
+                        <div class="buildingDivText">
+                            <h3>Teamspaces</h3>
+                        <p class="texts">Dedicated space for every team and project</p>
+                        </div>
+                    </div>
+                    <div class="buildingDiv">
+                        <img src="connections.webp" alt="">
+                        <div class="buildingDivText">
+                            <h3>Integrations</h3>
+                            <p class="texts">Connected to all your favorite tools.</p>
+                        </div>
+                    </div>
+                    <div class="buildingDiv">
+                        <img src="sparkleBubble.webp" alt="">
+                        <div class="buildingDivText">
+                            <h3>Just ask AI</h3>
+                            <p class="texts">Instant answers when you need them.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="replaceDiv">
+                    <h3>Replaces</h3>
+                    <div class="replaceDivIcons">
+                        <div class="evernoteDiv">
+                            <img src="confluence.webp" alt="">
+                            <p>Confluence</p>
+                        </div>
+                        <div class="evernoteDiv">
+                            <img src="sharepoint.webp" alt="">
+                            <p>Share Point</p>
+                        </div>
+                        <div class="evernoteDiv">
+                            <img src="google-drive.svg" alt="">
+                            <p>Google Drive</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightWordContent1">
+                <div class="buildingDiv">
+                    <img src="bookClosed1.webp" alt="">
+                    <div class="buildingDivText">
+                        <h3>Teamspaces</h3>
+                    <p class="texts">Dedicated space for every team and project</p>
+                    </div>
+                </div>
+                <div class="buildingDiv">
+                    <img src="connections.webp" alt="">
+                    <div class="buildingDivText">
+                        <h3>Integrations</h3>
+                        <p class="texts">Connected to all your favorite tools.</p>
+                    </div>
+                </div>
+                <div class="buildingDiv">
+                    <img src="sparkleBubble.webp" alt="">
+                    <div class="buildingDivText">
+                        <h3>Just ask AI</h3>
+                        <p class="texts">Instant answers when you need them.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="forbes">
+                <img src="pin.png" alt="">
+                <div class="forbesText">
+                    <h3>"Your AI everything app."</h3>
+                    <h4>Forbes</h4>
+                </div>
+            </div>
+            <div class="rightWords">
+                <div class="workflow1">
+                    <button class="write">Notion AI</button>
+                    <h1>Get a brain boost.</h1><br>
+                    <p>Built right into your workspace, Notion AI is at the ready to brainstorm ideas, summarize, help you write, and find what you’re looking for.</p><br>
+                    <a href="">Try Notion AI→</a>
+                </div>
+                <div class="rightWordContent">
+                    <div class="buildingDiv">
+                        <img src="exclaimationBubble.webp" alt="">
+                        <h3>Instant answers</h3>
+                        <p class="texts">Ask any question about your team’s docs and projects.</p>
+                    </div>
+                    <div class="buildingDiv">
+                        <img src="pencilTwist.webp" alt="">
+                        <h3>Personalized editor</h3>
+                        <p class="texts">Generate content that’s always relevant.</p>
+                    </div>
+                    <div class="buildingDiv">
+                        <img src="puzzle.webp" alt="">
+                        <h3>AI connectors</h3>
+                        <p class="texts">Access info from all your tools, right inside Notion.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="notesPic">
+                <img class="notesPic1" src="ai-v6.png" alt="">
+                <img class="notesPic2" src="ai.png" alt="">
+            </div>
+            <div class="rightWordContent3"> 
+                <div class="buildingDiv">
+                    <img src="exclaimationBubble.webp" alt="">
+                    <div class="buildingDivText">
+                        <h3>Instant answers</h3>
+                        <p class="texts">Ask any question about your team’s docs and projects.</p>
+                    </div>
+                </div>
+                <div class="buildingDiv">
+                    <img src="pencilTwist.webp" alt="">
+                    <div class="buildingDivText">
+                        <h3>Personalized editor</h3>
+                    <p class="texts">Generate content that’s always relevant.</p>
+                    </div>
+                </div>
+                <div class="buildingDiv">
+                    <img src="puzzle.webp" alt="">
+                    <div class="buildingDivText">
+                        <h3>AI connectors</h3>
+                    <p class="texts">Access info from all your tools, right inside Notion.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="everythingNeeded">
+                <h1>Everything you need to do your best work.</h1>
+                <div class="toolsDiv">
+                    <div class="docs">
+                        <img src="docsStacked.webp" alt="">
+                        <h3>Docs→</h3>
+                        <p>Build any page, communicate any idea.</p>
+                    </div>
+                    <div class="docs">
+                        <img src="bookFlat.webp" alt="">
+                        <h3>Wiki→</h3>
+                        <p>Store all your knowledge in one home base.</p>
+                    </div>
+                    <div class="docs">
+                        <img src="target.webp" alt="">
+                        <h3>Projects→</h3>
+                        <p>Manage any endeavor from beginning to end.</p>
+                    </div>
+                    <div class="docs">
+                        <img src="sparkle.webp" alt="">
+                        <h3>Notion AI→</h3>
+                        <p>Instant answers and writing help within your workspace.</p>
+                    </div>
+                    <div class="docs">
+                        <img src="notionCalendarLogo.webp" alt="">
+                        <h3>Calendar→</h3>
+                        <p>See all your commitments in one place.</p>
+                    </div>
+                    <div class="docs">
+                        <img src="trophy.webp" alt="">
+                        <h3>Goals→</h3>
+                        <p>Set objectives, get organized, and track progress.</p>
+                    </div>
+                    <div class="docs">
+                        <img src="globe.webp" alt="">
+                        <h3>Sites→</h3>
+                        <p>Make any page a website in minutes.</p>
+                    </div>
+                    <div class="docs">
+                        <img src="shapes1.webp" alt="">
+                        <h3>Templates→</h3>
+                        <p>Jump in with one of 10,000+ templates.</p>
+                    </div>
+                </div>
+                <div class="getStarted">
+                    <div class="getStartedText">
+                        <h2>Get started for free</h2>
+                        <p>Play around with it first. Pay and add your team later.</p>
+                        <div class="buttonDiv1">
+                            <button class="get1">Get Notion free</button>
+                            <button class="request1">Request a demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerDiv">
+                <div class="footerLeft">
+                    <svg class="wordmark_wordmark__gPyj1" style="--wordmark-height:30px" viewBox="0 0 87 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.805 1.294l16.6-1.226c2.039-.175 2.563-.057 3.845.875l5.299 3.733c.874.642 1.165.817 1.165 1.516v20.473c0 1.283-.466 2.042-2.097 2.158L7.34 29.99c-1.224.058-1.807-.117-2.448-.934L.99 23.982c-.7-.934-.99-1.633-.99-2.45V3.334c0-1.049.466-1.924 1.805-2.04z" fill="#fff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M18.405.068l-16.6 1.226C.466 1.41 0 2.285 0 3.334v18.198c0 .817.29 1.516.99 2.45l3.902 5.074c.641.817 1.224.992 2.448.934l19.277-1.167c1.63-.116 2.097-.875 2.097-2.158V6.192c0-.663-.262-.854-1.033-1.42a85.473 85.473 0 01-.133-.096L22.25.943c-1.282-.932-1.806-1.05-3.845-.875zM7.776 5.857c-1.574.106-1.931.13-2.825-.597L2.678 3.452c-.231-.234-.115-.526.467-.584l15.958-1.166c1.34-.117 2.038.35 2.562.758l2.737 1.983c.117.059.408.408.058.408l-16.48.992-.204.014zM5.941 26.49V9.11c0-.759.233-1.109.931-1.168L25.8 6.834c.642-.058.932.35.932 1.108v17.264c0 .759-.117 1.401-1.165 1.459l-18.113 1.05c-1.048.058-1.513-.291-1.513-1.225zm17.88-16.448c.116.525 0 1.05-.525 1.11l-.873.173v12.832c-.758.408-1.456.641-2.039.641-.932 0-1.165-.292-1.863-1.166l-5.709-8.982v8.69l1.806.409s0 1.05-1.457 1.05l-4.017.233c-.117-.234 0-.817.407-.933l1.049-.291v-11.49L9.144 12.2c-.117-.525.174-1.283.99-1.342l4.31-.29 5.94 9.098v-8.049l-1.514-.174c-.117-.643.349-1.11.931-1.167l4.02-.234z" fill="#000"></path><path class="wordmark_fill__RZFeq" d="M41.434 21.251v-7.91h.137l5.704 7.91h1.796V9.627h-1.997v7.902h-.137l-5.704-7.902H39.43V21.25h2.005zM54.715 21.429c2.635 0 4.238-1.724 4.238-4.584 0-2.852-1.611-4.584-4.238-4.584-2.618 0-4.237 1.74-4.237 4.584 0 2.86 1.595 4.584 4.237 4.584zm0-1.676c-1.393 0-2.19-1.063-2.19-2.908 0-1.837.797-2.908 2.19-2.908 1.386 0 2.183 1.071 2.183 2.908 0 1.845-.789 2.908-2.183 2.908zM60.778 10.28v2.215h-1.393v1.595h1.393v4.809c0 1.708.806 2.393 2.828 2.393.386 0 .757-.04 1.047-.097v-1.563c-.242.024-.395.04-.677.04-.837 0-1.208-.386-1.208-1.256V14.09h1.885v-1.595h-1.885v-2.216h-1.99zM65.85 21.251h1.99v-8.813h-1.99v8.813zm.991-10.27c.66 0 1.192-.533 1.192-1.201 0-.669-.531-1.209-1.192-1.209-.652 0-1.192.54-1.192 1.209 0 .668.54 1.2 1.192 1.2zM73.299 21.429c2.634 0 4.237-1.724 4.237-4.584 0-2.852-1.611-4.584-4.237-4.584-2.619 0-4.238 1.74-4.238 4.584 0 2.86 1.595 4.584 4.238 4.584zm0-1.676c-1.394 0-2.192-1.063-2.192-2.908 0-1.837.798-2.908 2.192-2.908 1.385 0 2.183 1.071 2.183 2.908 0 1.845-.79 2.908-2.183 2.908zM78.725 21.251h1.998V16.12c0-1.297.75-2.119 1.941-2.119 1.217 0 1.78.677 1.78 2.022v5.228h1.999v-5.703c0-2.103-1.072-3.287-3.037-3.287-1.314 0-2.2.604-2.619 1.587h-.137v-1.41h-1.925v8.813z" fill="#000"></path></svg>
+                    <div class="socialLinks">
+                        <div class="facebook">
+                            <svg class="shareInstagram" viewBox="0 0 18 18" style="width:18px;height:18px;display:block;fill:color;flex-shrink:0"><path fill-rule="evenodd" clip-rule="evenodd" d="M9 1.621c2.405 0 2.689.011 3.635.053.879.039 1.354.186 1.67.309.418.162.721.359 1.034.671.316.316.51.615.675 1.034.123.316.271.795.309 1.67.042.949.053 1.234.053 3.635s-.011 2.689-.053 3.635c-.039.879-.186 1.354-.309 1.67a2.802 2.802 0 01-.671 1.034c-.316.316-.615.51-1.034.675-.316.123-.795.271-1.67.309-.949.042-1.234.053-3.635.053s-2.689-.011-3.635-.053c-.879-.039-1.354-.186-1.67-.309a2.802 2.802 0 01-1.034-.671 2.815 2.815 0 01-.675-1.034c-.123-.316-.271-.795-.309-1.67-.042-.949-.053-1.234-.053-3.635s.011-2.689.053-3.635c.039-.879.186-1.354.309-1.67.162-.418.359-.721.671-1.034.316-.316.615-.51 1.034-.675.316-.123.795-.271 1.67-.309.946-.042 1.23-.053 3.635-.053zM9 0C6.557 0 6.251.011 5.291.053 4.335.095 3.677.25 3.108.471a4.389 4.389 0 00-1.596 1.041A4.404 4.404 0 00.471 3.105C.25 3.678.095 4.332.053 5.288.011 6.251 0 6.557 0 9c0 2.443.011 2.749.053 3.709.042.956.197 1.614.418 2.183a4.389 4.389 0 001.041 1.596 4.392 4.392 0 001.593 1.037c.573.221 1.227.376 2.183.418.96.042 1.266.053 3.709.053s2.749-.011 3.709-.053c.956-.042 1.614-.197 2.183-.418a4.413 4.413 0 001.593-1.037c.5-.499.809-1.002 1.037-1.593.221-.573.376-1.227.418-2.183.042-.96.053-1.266.053-3.709s-.011-2.749-.053-3.709c-.042-.956-.197-1.614-.418-2.183a4.21 4.21 0 00-1.03-1.6A4.392 4.392 0 0014.896.474c-.573-.221-1.227-.376-2.183-.418C11.75.01 11.444 0 9 0zm0 4.377A4.625 4.625 0 004.377 9 4.625 4.625 0 009 13.623 4.625 4.625 0 0013.623 9 4.625 4.625 0 009 4.377zm0 7.622A3 3 0 119 6 3 3 0 019 12zm4.806-6.726a1.079 1.079 0 100-2.158 1.079 1.079 0 000 2.158z"></path></svg>
+                        </div>
+                        <div class="facebook">
+                            <svg class="shareTwitter" viewBox="0 0 22 18" style="width:20px;height:16px;display:block;fill:color;flex-shrink:0;margin-top:2px"><path d="m22 2.12799c-.8083.36413-1.6798.60642-2.5899.71441.9321-.56211 1.6455-1.45374 1.9851-2.514271-.8716.51919-1.8393.899931-2.8648 1.103451-.8248-.883314-1.9974-1.43158-3.2951-1.43158-2.4922 0-4.5102 2.03384-4.5102 4.54257 0 .35444.0385.70057.1154 1.03423-3.75002-.19106-7.07532-1.99923-9.30088-4.750248-.38628.670098-.610352 1.453738-.610352 2.284438 0 1.57557.794552 2.96839 2.005622 3.7811-.73956-.02216-1.43514-.22983-2.045487-.56627v.05677c0 2.20275 1.554737 4.04141 3.620847 4.45671-.37803.1039-.77806.1606-1.19046.1606-.29142 0-.57185-.0304-.85091-.0817.57598 1.8041 2.24207 3.1193 4.2147 3.1581-1.54649 1.2198-3.48888 1.9466-5.60585 1.9466-.365658 0-.721694-.0221-1.07773-.065 2.0015 1.2931 4.37278 2.0421 6.92002 2.0421 8.29878 0 12.84068-6.9267 12.84068-12.9327 0-.19937-.0041-.3932-.0124-.58841.8812-.63549 1.6455-1.43712 2.2503-2.34952z"></path></svg>
+                        </div>
+                        <div class="facebook">
+                            <svg class="shareLinkedIn" viewBox="0 0 20 18" style="width:20px;height:18px;display:block;fill:color;flex-shrink:0"><path clip-rule="evenodd" d="m2.0769 4.15379c1.14644 0 2.07689-.93045 2.07689-2.07689 0-1.14645-.93045-2.0769-2.07689-2.0769-1.14645 0-2.0769.93045-2.0769 2.0769 0 1.14644.93045 2.07689 2.0769 2.07689zm-2.0769 13.84621v-12.46143h4.15379v12.46143zm6.92371-12.46143h3.83119v1.96336h.0554c.533-.95675 1.8373-1.96336 3.7827-1.96336 4.0444 0 4.7921 2.5172 4.7921 5.79173v6.6697h-3.9946v-5.9123c0-1.4095-.0291-3.22471-2.0769-3.22471-2.0796 0-2.3981 1.53551-2.3981 3.12231v6.0147h-3.99179z" fill-rule="evenodd"></path></svg>
+                        </div>
+                        <div class="facebook">
+                            <svg class="shareFacebook" viewBox="0 0 18 18" style="width:18px;height:18px;display:block;fill:color;flex-shrink:0"><path d="M17.999 8.999c0-4.97-4.029-8.999-8.999-8.999s-8.999 4.029-8.999 8.999c0 4.492 3.291 8.215 7.593 8.89v-6.289h-2.285v-2.601h2.285v-1.983c0-2.255 1.344-3.501 3.399-3.501 0.985 0 2.015 0.176 2.015 0.176v2.215h-1.135c-1.118 0-1.467 0.694-1.467 1.405v1.688h2.496l-0.399 2.601h-2.097v6.289c4.302-0.675 7.593-4.398 7.593-8.89z"></path></svg>
+                        </div>
+                        <div class="facebook">
+                            <svg class="shareYouTube" viewBox="0 0 18 18" style="width:18px;height:18px;display:block;fill:color;flex-shrink:0"><path d="M9 2.070c-8.845 0-9 0.787-9 6.93s0.155 6.93 9 6.93 9-0.787 9-6.93-0.155-6.93-9-6.93zM11.884 9.301l-4.041 1.886c-0.354 0.164-0.644-0.020-0.644-0.41v-3.553c0-0.39 0.29-0.574 0.644-0.41l4.041 1.886c0.354 0.166 0.354 0.436 0 0.601z"></path></svg>
+                        </div>
+                    </div>
+                    <button class="english">
+                        <div class="englishInner">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="1em" style="width:16px;height:16px;fill:var(--color-icon)" class="NotionIconSvgWrapper_icon__In1uC"><defs fill="currentColor"></defs><path d="m20,19.24l2.16,5.76h-4.32l2.16-5.76Zm5.95,4.62c2.49-3.27,6.07-5.64,10.5-6.87-2.61-5.68-8.42-8.99-16.45-8.99C8.89,8,2,14.32,2,24.5c0,5.19,1.8,9.37,5.03,12.22l-5.03,5.03,1.5,2.25c4.06,0,7.8-1.36,10.81-3.63,1.74.41,3.64.63,5.69.63.82,0,1.61-.05,2.39-.11-.25-1.39-.39-2.85-.39-4.39,0-2.73.43-5.23,1.22-7.5h-6.88l-1.12,3h-4.22l6-16h6l2.95,7.86Zm18.05,13.46c.99-.9,1.84-1.99,2.4-3.32h-4.79c.56,1.33,1.41,2.42,2.4,3.32Zm12.97,11.4l5.03,5.03-1.5,2.25c-4.06,0-7.8-1.36-10.81-3.63-1.74.41-3.64.63-5.69.63-11.11,0-18-6.32-18-16.5s6.89-16.5,18-16.5,18,6.32,18,16.5c0,5.19-1.8,9.37-5.03,12.22Zm-3.97-18.72h-7v-3h-4v3h-7v4h2.49c.58,1.97,1.68,3.86,3.22,5.52-2.76,1.36-5.38,1.74-5.38,1.74l1.4,3.75c2.78-.5,5.21-1.48,7.26-2.78,2.05,1.3,4.49,2.29,7.26,2.78l1.4-3.75s-2.62-.38-5.38-1.74c1.55-1.66,2.64-3.55,3.22-5.52h2.49v-4Z" fill="currentColor"></path></svg>
+                            <p>English</p>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                    </button>
+                    <div class="cookies">
+                        <a href="">Do Not Sell or Share My Info</a>
+                        <a href="">Cookie settings</a>
+                    </div>
+                    <p class="copyright">© 2024 Notion Labs, Inc.</p>
+                </div>
+                <div class="footerRight">
+                    <div class="quick_links">
+                        <h2>Company</h2>
+                        <p>About us</p>
+                        <p>Careers</p>
+                        <p>Security</p>
+                        <p>Status</p>
+                        <p>Terms & privacy</p>
+                    </div>
+                    <div class="quick_links">
+                        <h2>Download</h2>
+                        <p>iOS & Android</p>
+                        <p>Mac & Windows</p>
+                        <p>Calendar</p>
+                        <p>Web Clipper</p>
+                    </div>
+                    <div class="quick_links">
+                        <h2>Resources</h2>
+                        <p>Help center</p>
+                        <p>Pricing</p>
+                        <p>Blog</p>
+                        <p>Community</p>
+                        <p>Integrations</p>
+                        <p>Templates</p>
+                        <p>Affiliates</p>
+                    </div>
+                    <div class="quick_links">
+                        <h2>Notion for</h2>
+                        <p>Enterprise</p>
+                        <p>Small business</p>
+                        <p>Personal</p>
+                        <p class="exploreMore">Explore more→</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

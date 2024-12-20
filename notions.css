@@ -1,0 +1,1104 @@
+@font-face {
+    font-family: lyon ;
+    src: url(LyonText-Regular-Web.d7bfb4be.woff2);
+}
+@font-face {
+    font-family: inter;
+    src: url(Inter-Var.730e8169.woff2);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2%;
+    background-color: white;
+    z-index: 15;
+}
+.leftNav{
+    width: max-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+}
+.leftNav >svg{
+    width: 100px;
+    height: 50px;
+}
+.navLeftLinks{
+    width: 500px;
+    display: flex;
+    margin-left: 3%;
+}
+.links1{
+    width: max-content;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 10px;
+    padding: 10px;
+
+}
+.links1:hover{
+    background-color: rgba(239, 238, 238, 0.429);
+    border-radius: 5px;
+    padding: 10px;
+}
+.links1 >a{
+    text-decoration: none;
+    font: 14px sans-serif;
+    color: black;
+}
+.rightNav{
+    width: max-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.navRightLinks{
+    width: max-content;
+    display: flex;
+}
+.links2{
+    width: 120px;
+    height: 25px;
+    display: flex;
+    gap: 6px;
+    margin-left: 30px;
+    border-right: 1px solid rgba(128, 128, 128, 0.441);
+    align-items: center;
+
+}
+.links2 >a{
+    text-decoration: none;
+    font: 14px sans-serif;
+    color: black;
+}
+.links3{
+    width: 120px;
+    height: 30px;
+    display: flex;
+    gap: 6px;
+    margin-left: 30px;
+    background-color: black;
+    border-radius:5px ;
+    align-items: center;
+    justify-content: center;
+
+}
+.links3:hover{
+    background-color: rgb(53, 53, 53);
+}
+.links3 >a{
+    text-decoration: none;
+    font: 14px sans-serif;
+    color: white;
+    font-weight: 600;
+}
+.navbar2{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+}
+.navbar2Left{
+    display: flex;
+    gap: 10px;
+    width: max-content;
+    height: fit-content;
+}
+.navbar2 >svg{
+    width: 100px;
+    height: 60px;
+}
+
+
+
+.firstDiv{
+    width: 90%;
+    height: max-content;
+    margin: auto;
+}
+.organiseDiv{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    gap: 50px;
+    padding-top: 80px;
+}
+.organiseText{
+    width: 48%;
+    height: 100%;
+}
+.organiseText h1{
+    font: 90px inter;
+    line-height: 90px;
+    font-weight: 600;
+}
+.organiseText p{
+    font: 25px inter;
+    line-height: 30px;
+    font-weight: 500;
+    color: rgb(5,5,5)
+}
+.buttonDiv{
+    width: max-content;
+    height: 45px;
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+.get{
+    width: 165px;
+    height: 100%;
+    background-color: rgb(5,130,255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font: 16px inter;
+    font-weight: 500;
+}
+.get:hover{
+    background-color: rgb(4, 90, 195);
+}
+.request:hover{
+    background-color: rgb(214, 225, 245);
+}
+.request{
+    width: 165px;
+    height: 100%;
+    background-color: rgb(235,245,254);
+    color: rgb(5,130,255);
+    border: none;
+    border-radius: 10px;
+    font: 16px inter;
+    font-weight: 500;
+}
+.organisePic{
+    width: 48%;
+    height: 100%;
+}
+.organisePic >img{
+    width: 100%;
+    aspect-ratio: 4 / 2;
+}
+
+
+
+
+
+.standupPic{
+    width: 100%;
+    height: 840px;
+}
+.standupPic img{
+    width: inherit;
+    height: inherit;
+    box-shadow: 1px 1px 80px rgba(208, 208, 208, 0.484);
+}
+
+
+
+.brandsDiv{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.brandsDiv img{
+    width: 15%;
+    height: 40px;
+}
+.rightWords{
+    width: 100%;
+    height: 200px;
+}
+.write{
+    width: max-content;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font: 16px inter;
+    font-weight: 500;
+    padding: 10px 20px 10px 20px;
+}
+.rightWords{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    gap: 50px;
+}
+.rightWordText{
+    width: 50%;
+    height: max-content;
+}
+.rightWordText h1{
+    width: 70%;
+    font: 70px inter;
+    font-weight: 600;
+    color: rgb(5,5,5);
+}
+.rightWordText p{
+    font: 18px inter;
+    font-weight: 500;
+    list-style: 24px;
+    color: rgba(128, 128, 128, 0.959);
+}
+.rightWordText a{
+    text-decoration: none;
+    font: 18px inter;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgb(5,130,255);
+}
+.rightWordText a:hover{
+    text-decoration: underline rgb(48, 117, 170);
+}
+.rightWordContent{
+    width: 50%;
+    height: max-content;
+    margin-top: 120px;
+    display: flex;
+    gap: 30px;
+}
+.rightWordContent1{
+    width: 100%;
+    height: max-content;
+    margin-top: 40px;
+    display: none;
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+.rightWordContent2{
+    width: 100%;
+    height: max-content;
+    margin-top: 40px;
+    display: none;
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.429);
+}
+.rightWordContent3{
+    width: 100%;
+    height: max-content;
+    margin-top: 40px;
+    display: none;
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+.buildingDiv{
+    width: 33%;
+    height: max-content;
+}
+.buildingDiv img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.buildingDivText{
+    width: 100%;
+    height: 100%;
+}
+.buildingDivText h3{
+    font: 17px inter;
+    font-weight: 600;
+}
+.texts{
+    font: 16px inter;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(128, 128, 128);
+}
+.notesPic{
+    width: 100%;
+    height: 700px;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+.notesPic >.notesPic1 {
+    width: inherit;
+    height: 640px;
+    border-radius: 20px;
+    box-shadow: 1px 1px  rgba(208, 208, 208, 0.484);
+}
+.notesPic >.notesPic2 {
+    width: inherit;
+    height: 640px;
+    border-radius: 20px;
+    box-shadow: 1px 1px  rgba(208, 208, 208, 0.484);
+    display: none;
+}
+.replaceDiv{
+    width: max-content;
+    height: 50px;
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.replaceDiv h3{
+    font: 17px inter;
+    font-weight: 600;
+}
+.replaceDivIcons{
+    display: flex;
+    gap: 10px;
+}
+.evernoteDiv{
+    width: max-content;
+    height: 24px;
+    display: flex;
+    gap: 5px;
+}
+.evernoteDiv img{
+    width: 24px;
+    height: 24px;
+}
+.evernoteDiv p{
+    font: 16px inter;
+    font-weight: 500;
+    list-style: 24px;
+    color: rgb(128, 128, 128);
+}
+.workflow{
+    width: 48%;
+    height: fit-content;
+}
+.workflow h1{
+    width: 90%;
+    font: 60px inter;
+    font-weight: 600;
+    color: rgb(5,5,5);
+}
+.workflow p{
+    font: 18px inter;
+    font-weight: 500;
+    list-style: 24px;
+    color: rgb(128, 128, 128);
+}
+.workflow a{
+    text-decoration: none;
+    font: 18px inter;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgb(5,130,255);
+}
+.workflow a:hover{
+    text-decoration: underline rgb(48, 117, 170);
+}
+.workflow1{
+    width: 48%;
+    height: fit-content;
+}
+.workflow1 h1{
+    width: 90%;
+    font: 60px inter;
+    font-weight: 600;
+    color: rgb(5,5,5);
+}
+.workflow1 p{
+    font: 18px inter;
+    font-weight: 500;
+    list-style: 24px;
+    color: rgb(128, 128, 128);
+}
+.workflow1 a{
+    text-decoration: none;
+    font: 18px inter;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgb(5,130,255);
+}
+.workflow1 a:hover{
+    text-decoration: underline rgb(48, 117, 170);
+}
+.forbes{
+    width: 700px;
+    height: 230px;
+    margin: auto;
+    background-color: rgba(246, 245, 244 );
+    transform: rotate(-4deg);
+    margin-bottom: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forbes img{
+    width: 70px;
+    height: 90px;
+    position: fixed;
+    top: -60px;
+}
+.forbesText{
+    width: 100%;
+    height: max-content;
+}
+.forbesText h3{
+    width: max-content;
+    line-height: 65px;
+    margin: auto;
+    font: 50px lyon;
+}
+.forbesText h4{
+    width: max-content;
+    line-height: 60px;
+    margin: auto;
+    font: 25px lyon;
+    font-weight: 600;
+}
+.everythingNeeded{
+    width: 100%;
+    height: max-content;
+    margin: auto;
+}
+.everythingNeeded h1{
+    width: 50%;
+    height: fit-content;
+    font: 60px inter;
+    font-weight: 600;
+    line-height: 70px;
+}
+.toolsDiv{
+    width: 100%;
+    aspect-ratio: 3 / 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, fit-content);
+    margin-top: 30px;
+    gap: 3%;
+}
+.docs img{
+    width: 80px;
+    height: 80px;
+}
+.docs h3{
+    font: 24px inter;
+    font-weight: 600;
+}
+.docs h3:hover{
+    color: rgb(10, 133, 209);;
+    text-decoration: underline 
+}
+.docs p{
+    width: 87%;
+    font: 18px inter;
+    font-weight: 600;
+    color: rgb(128, 128, 128);
+}
+.getStarted{
+    width: 100%;
+    height: max-content;
+}
+.getStartedText{
+    width: 50%;
+    height: fit-content;
+    margin-top: 150px;
+    margin-bottom: 180px;
+}
+.getStartedText h2{
+    font: 60px inter;
+    font-weight: 600;
+}
+.getStartedText p{
+    font: 18px inter;
+    font-weight: 600;
+    color: rgb(128, 128, 128);
+}
+.buttonDiv1{
+    width: max-content;
+    height: 45px;
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+.get1{
+    width: 165px;
+    height: 100%;
+    background-color: rgb(5,130,255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font: 16px inter;
+    font-weight: 500;
+}
+.get1:hover{
+    background-color: rgb(4, 90, 195);
+}
+.request1:hover{
+    background-color: rgb(214, 225, 245);
+}
+.request1{
+    width: 165px;
+    height: 100%;
+    background-color: rgb(235,245,254);
+    color: rgb(5,130,255);
+    border: none;
+    border-radius: 10px;
+    font: 16px inter;
+    font-weight: 500;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    border-top: 1px solid rgba(128, 128, 128, 0.429);
+    padding-top: 80px;
+}
+.footerDiv{
+    width: 85%;
+    height: max-content;
+    margin: auto;
+    display: flex;
+    padding-bottom: 70px;
+}
+.footerLeft{
+    width: 30%;
+    height: fit-content;
+}
+.footerLeft >svg{
+    width: 100px;
+    height: 50px;
+}
+.socialLinks{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    gap: 7px;
+    margin-top: 25px;
+}
+.facebook{
+   width: 30px;
+   height: 30px; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.facebook >svg{
+    width: 90%;
+    height: 90%;
+    fill: rgb(122, 122, 122);
+}
+.facebook:hover{
+    background-color: rgba(213, 212, 212, 0.429);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.facebook:hover .shareInstagram{
+    fill: rgb(0, 0, 0);
+}
+.facebook:hover .shareTwitter{
+    fill: rgb(74, 154, 228);
+}
+.facebook:hover .shareLinkedIn{
+    fill: rgb(48, 117, 170);
+}
+.facebook:hover .shareFacebook{
+    fill: rgb(66, 103, 178);
+}
+.facebook:hover .shareYouTube{
+    fill: red;
+}
+
+.english{
+    width: 130px;
+    height: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.429);
+    border-radius: 5px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.englishInner{
+    height: fit-content;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.englishInner >svg{
+    width: 10px;
+    height: 10px;
+}
+.englishInner p{
+    font: 16px inter;
+    font-weight: 600;
+}
+.englishInner i{
+    font-size: 12px;
+    font-weight: 600;
+}
+.english:hover{    
+    background-color: rgba(246, 246, 246, 0.429);
+    cursor: pointer;
+}
+.cookies{
+    width: max-content;
+    height: max-content;
+    margin-top: 20px;
+}
+.cookies a{
+    display: block;
+    text-decoration: none;
+    font: 14px inter;
+    line-height: 24px;
+    color: rgba(128, 128, 128);
+}
+.copyright{
+    margin-top: 10px;
+    font: 14px inter;
+    color: rgb(77, 76, 76);
+}
+.footerRight{
+    height: fit-content;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: fit-content;
+    gap: 10%;
+}
+.quick_links h2{
+    font: 16px inter;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgb(18,18,18);
+}
+.quick_links p{
+    font: 15px inter;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(77, 76, 76);
+}
+.quick_links p:hover{
+    text-decoration: 1.5px underline rgb(48, 117, 170);
+}
+p.exploreMore{
+    font: 16px inter;
+    font-weight: 600;
+    color: rgb(18,18,18);
+    margin-top: 100px;
+}
+p.exploreMore:hover{
+    color: rgb(5,130,255);
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 1080px) {
+    .navbar{
+        display: none;
+    }.navbar2{
+        display: flex;
+        z-index: 15;
+    }
+    .footer{
+        height: fit-content;
+    }
+    .footerDiv{
+        flex-direction: column;
+    }
+    .footerRight{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, fit-content);
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 940px){
+    .organiseDiv{
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .organiseText{
+        text-align: center;
+    }
+    .organiseText h1{
+        font: 70px inter;
+        line-height: 60px;
+    }
+    .organiseText p{
+        font: 23px inter;
+    }
+    .buttonDiv{
+        width: max-content;
+        height: fit-content;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .get{
+        height: 45px;
+    }
+    .request{
+        height: 45px;
+    }
+    .organisePic{
+        width: 60%;
+    }
+    .forbes{
+        width: 600px;
+        height: 210px;
+    }
+    .forbesText h3{
+        line-height: 60px;
+        font: 45px lyon;
+    }
+    .forbesText h4{
+        line-height: 60px;
+        font: 24px lyon;
+    }
+    .everythingNeeded h1{
+        width: 75%;
+        font-weight: 700;
+    }
+    .getStartedText{
+        width: 55%;
+    }
+    .getStartedText h2{
+        font-weight: 700;
+    }
+    .getStartedText p{
+        font-weight: 500;
+    }
+    .buttonDiv1{
+        width: 100%;
+        height: max-content;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .get1{
+        width: 100%;
+        height: 45px;
+        font: 17px inter;
+        font-weight: 600;
+    }
+    .request1{
+        width: 100%;
+        height: 45px;
+        font: 17px inter;
+        font-weight: 600;
+    }
+    
+}
+@media screen and (max-width: 849px){
+    .standupPic{
+        height: 500px;
+    }
+    .brandsDiv{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .brandsDiv img{
+        width: 21%;
+        height: 38px;
+    }
+    
+    .rightWords{
+        width: 100%;
+        height: max-content;
+        display: flex;
+        gap: 50px;
+    }
+    .rightWordText{
+        width: 100%;
+        height: max-content;
+    }
+    .rightWordText h1{
+        width: 100%;
+        font: 60px inter;
+        font-weight: 600;
+    }
+    .rightWordContent{
+        display: none;
+    }
+    .rightWordContent1{
+        display: flex;
+    }
+    .rightWordContent3{
+        display: flex;
+    }
+    .notesPic{
+        height: fit-content;
+        margin-bottom: 50px;
+    }
+    .notesPic >.notesPic1{
+        height: 400px;
+        aspect-ratio: 4 / 2;
+    }
+   
+    .evernoteDiv img{
+        width: 24px;
+        height: 24px;
+    }
+    .workflow{
+        width: 100%;
+        height: max-content;
+    }
+    .workflow h1{
+        width: 70%;
+        font: 60px inter;
+        font-weight: 600;
+    }
+    .forbes{
+        width: 600px;
+        height: 190px;
+        margin-bottom: 150px;
+    }
+    .forbesText h3{
+        line-height: 60px;
+        font: 42px lyon;
+    }
+    .forbes img{
+        width: 60px;
+        height: 80px;
+        top: -50px;
+    }
+    .workflow1{
+        width: 100%;
+        height: max-content;
+    }
+    .workflow1 h1{
+        width: 100%;
+        font: 60px inter;
+        font-weight: 600;
+    }
+    .everythingNeeded h1{
+        width: 90%;
+        height: fit-content;
+        font: 60px inter;
+        font-weight: 600;
+        line-height: 70px;
+    }
+}
+@media screen and (max-width: 740px){
+    .standupPic{
+        height: 600px;
+    }
+    .notesPic1{
+        display: none;
+    }
+    .notesPic >.notesPic2 {
+        width: 95%;
+        height: 700px;
+        margin: auto;
+        display: block;
+    }
+}
+@media screen and (max-width: 702px){
+    .forbes{
+        width: 350px;
+        height: 120px;
+        margin-bottom: 150px;
+    }
+    .forbesText h3{
+        line-height: 40px;
+        font: 26px lyon;
+    }
+    .forbesText h4{
+        font: 25px lyon;
+        font-weight: 600;
+    }
+    .forbes img{
+        width: 40px;
+        height: 50px;
+        top: -35px;
+    }
+    .footerRight{
+        height: fit-content;
+        width: 90%;
+        column-gap: 40%;
+    }
+    .toolsDiv{
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, fit-content);
+        margin-top: 30px;
+        gap: 3%;
+        row-gap: 40px;
+    }
+    .docs img{
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    .docs p{
+        font-weight: 500;
+    }
+    .getStartedText{
+        width: 100%;
+    }
+    .organiseText{
+        width: 100%;
+        height: 100%;
+        text-align: start;
+    }
+    .organiseText h1{
+        width: 100%;
+        font: 50px inter;
+        font-weight: 600;
+    }
+    .organiseText p{
+        font: 23px inter;
+    }
+    .buttonDiv{
+        width: 100%;
+    }
+    .get{
+        width: 100%;
+    }
+    .request{
+        width: 100%;
+    }
+    .organisePic {
+        width: 100%;
+    }
+    .organisePic >img{
+        width: 100%;
+        aspect-ratio: 4 / 2;
+    }
+}
+@media screen and (max-width: 590px){
+    .organiseDiv{
+        padding-top: 30px;
+    }
+    .organiseText h1{
+        width: 60%;
+        font: 50px inter;
+        font-weight: 600;
+    }
+    .standupPic{
+        height: 500px;
+    }
+    .notesPic >.notesPic2 {
+        width: 95%;
+        height: 600px;
+        margin: auto;
+        display: block;
+    }
+    .brandsDiv img{
+        width: 26%;
+        height: 34px;
+    }
+    .rightWordContent1{
+        display: none;
+    }
+    .rightWordContent2{
+        display: block;
+    }
+    .rightWordContent3{
+        display: block;
+    }
+    .buildingDiv{
+        width: 100%;
+        display: flex;
+        gap: 15px;
+    }
+    .buildingDiv img{
+        width: 60px;
+        height: 60px;
+    }
+    .forbes{
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    .replaceDiv{
+        display: block;
+    }
+    .replaceDivIcons{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .workflow1{
+        width: 100%;
+        height: max-content;
+    }
+    
+    .everythingNeeded h1{
+        width: 100%;
+        height: fit-content;
+        font: 42px inter;
+        font-weight: 700;
+        line-height: 50px;
+    }
+    .docs h3{
+        font: 20px inter;
+        font-weight: 600;
+    }
+    .docs p{
+        width: 90%;
+        font: 17px inter;
+        font-weight: 600;
+        color: rgb(128, 128, 128);
+        line-height: 24px;
+    }
+    .footerRight{
+        column-gap: 20%;
+    }
+}       
+
+
+
+
+@media screen and (max-width: 390px){
+    .standupPic{
+        height: fit-content;
+    }
+    .standupPic img{
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        /* height: 400px; */
+    }
+    .rightWordText h1{
+        width: 100%;
+        font: 50px inter;
+        font-weight: 600;
+        color: rgb(5,5,5);
+    }
+    .notesPic >.notesPic2 {
+        width: 95%;
+        height: 400px;
+        margin: auto;
+        display: block;
+    }
+    .brandsDiv img{
+        width: 150px;
+        height: 34px;
+    }
+}
+
